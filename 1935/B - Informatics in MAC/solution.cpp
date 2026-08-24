@@ -1,66 +1,76 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
  
 void solve()
 {
     int n;
-    cin >> n;
-    vector<int> a(n);
+    cin >>n;
  
-    for (int i = 0; i < n; i++)
-        cin >> a[i];
+    vector<int>a(n);
+    unordered_map<int,int>ump;
+    set<int>st;
+    for(int i=0 ; i<=n ;i++) st.insert(i);
  
-    unordered_set<int> st(a.begin(), a.end());
-    int temp = n;
- 
-    for (int i = 0; i <= n; i++)
+    for(int i=0 ; i<n ; i++)
     {
-        if (!st.count(i))
+        cin >>a[i];
+      
+    }
+ 
+    vector<int>prefix_mex,suffix_mex;
+ 
+    for(int i=0 ; i<n ; i++)
+    {
+        if(st.count(a[i]))
         {
-            temp = i;
-            break;
+            st.erase(a[i]);
+        }
+ 
+        prefix_mex.push_back(*st.begin());
+    }
+ 
+    st.clear();
+    for(int i=0 ; i<=n ;i++) st.insert(i);
+ 
+    for(int i= n-1 ; i>=0 ; i--)
+    {
+        if(st.count(a[i]))
+        {
+            st.erase(a[i]);
+        }
+ 
+        suffix_mex.push_back(*st.begin());
+    }
+ 
+    reverse(suffix_mex.begin(),suffix_mex.end());
+ 
+ 
+    for(int i=0 ; i<n-1 ; i++)
+    {
+        if(prefix_mex[i]==suffix_mex[i+1])
+        {
+            cout<<2<<endl;
+            cout<<1<<" "<<i+1<<endl;
+            cout<<i+2<<" "<<n<<endl;
+            return;
         }
     }
  
-    unordered_set<int> us;
-    int start = 0;
-    int end = 0;
-    vector<pair<int, int>> vp;
+    cout<<-1<<endl;
  
-    for (int i = 0; i < n; i++)
-    {
-        if (a[i] < temp)
-        {
-            us.insert(a[i]);
-        }
-        if (us.size() == (temp))
-        {
-            vp.push_back({start, end});
-            start = end + 1;
-            us.clear();
-        }
-        end++;
-    }
-    vp[vp.size()-1].second=n-1;
  
-    if (vp.size() < 2)
-    {
-        cout << -1 << endl;
-        return;
-    }
+    
  
-    cout << vp.size() << endl;
-    for (auto &i : vp)
-        cout << i.first+1 << " " << i.second+1 << endl;
-    return;
+ 
 }
  
 int main()
 {
     int t;
-    cin >> t;
-    while (t--)
+    cin >>t;
+    while(t--)
     {
         solve();
     }
+    return 0;
 }

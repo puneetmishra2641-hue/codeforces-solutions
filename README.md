@@ -6,12 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 5 |
+| 2 | 6 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [constructive algorithms](#constructive-algorithms) (1)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dsu](#dsu) (1)
 - [greedy](#greedy) (1)
@@ -19,6 +20,12 @@
 - [strings](#strings) (1)
 
 ---
+
+### constructive algorithms
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1935B | [Informatics in MAC](https://codeforces.com/contest/1935/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1935/B%20-%20Informatics%20in%20MAC/solution.cpp) |
 
 ### dfs and similar
 

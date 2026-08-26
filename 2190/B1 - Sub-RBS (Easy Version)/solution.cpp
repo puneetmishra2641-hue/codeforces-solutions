@@ -18,7 +18,8 @@ void solve()
             p=true;
             continue;
         }
-        if(p) count++;
+        
+        if(p && it=='(') count++;
     }
  
     if(count>=2) cout<<n-2<<endl;

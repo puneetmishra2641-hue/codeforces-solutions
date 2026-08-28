@@ -8,8 +8,7 @@ void solve()
  
     int n = s.size();
  
-    unordered_map<int, string> ump;
-    set<int>st;
+    set<int> st;
  
     for (int i = 0; i < n; i++)
     {
@@ -19,8 +18,8 @@ void solve()
             temp.push_back(s[j]);
         }
  
-        ump[i] = temp;
-        if(temp=="1100") st.insert(i);
+        if (temp == "1100")
+            st.insert(i);
     }
  
     int q;
@@ -28,7 +27,7 @@ void solve()
  
     while (q--)
     {
-        int i,v;
+        int i, v;
         cin >> i >> v;
  
         if (s.size() < 4)
@@ -37,38 +36,36 @@ void solve()
             continue;
         }
  
-        int start=0;
-        s[i-1]=char(v+48);
-        if(i-4>=0 ) start=i-4;
+        int start = max(0, i - 4);
+        s[i - 1] = char(v + 48);
  
-       
-        for(int j= start ; j<i ; j++)
+        for (int j = start; j < i; j++)
         {
-             string puneet;
-            for(int k=j ; k< n && k<j+4 ; k++)
+            string puneet;
+            for (int k = j; k < n && k < j + 4; k++)
             {
                 puneet.push_back(s[k]);
             }
  
-            ump[j]=puneet;
-            if(puneet=="1100")
+            if (puneet == "1100")
             {
                 st.insert(j);
             }
-            else 
+            else
             {
-                if(st.count(j)) st.erase(j);
+                if (st.count(j))
+                    st.erase(j);
             }
         }
  
-        if(st.empty())
+        if (st.empty())
         {
-            cout<<"NO"<<endl;
+            cout << "NO" << endl;
             continue;
         }
  
-        else cout<<"YES"<<endl;
- 
+        else
+            cout << "YES" << endl;
     }
 }
  

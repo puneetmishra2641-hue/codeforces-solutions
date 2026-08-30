@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 26 | 19 |
+| 27 | 20 |
 
 ---
 
@@ -25,12 +25,13 @@
 - [graphs](#graphs) (6)
 - [greedy](#greedy) (8)
 - [implementation](#implementation) (7)
+- [interactive](#interactive) (1)
 - [math](#math) (9)
 - [number theory](#number-theory) (2)
 - [sortings](#sortings) (3)
 - [strings](#strings) (3)
-- [trees](#trees) (5)
-- [two pointers](#two-pointers) (2)
+- [trees](#trees) (6)
+- [two pointers](#two-pointers) (3)
 
 ---
 
@@ -154,6 +155,12 @@
 | 2179C | [Blackslex and Number Theory](https://codeforces.com/contest/2179/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2179/C%20-%20Blackslex%20and%20Number%20Theory/solution.cpp) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.cpp) |
 
+### interactive
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2258C | [Far Cities](https://codeforces.com/contest/2258/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2258/C%20-%20Far%20Cities/solution.cpp) |
+
 ### math
 
 | # | Problem | Difficulty | Solution |
@@ -200,6 +207,7 @@
 | 1325C | [Ehab and Path-etic MEXs](https://codeforces.com/contest/1325/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1325/C%20-%20Ehab%20and%20Path-etic%20MEXs/solution.cpp) |
 | 1805D | [A Wide, Wide Graph](https://codeforces.com/contest/1805/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1805/D%20-%20A%20Wide%2C%20Wide%20Graph/solution.cpp) |
 | 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.cpp) |
+| 2258C | [Far Cities](https://codeforces.com/contest/2258/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2258/C%20-%20Far%20Cities/solution.cpp) |
 
 ### two pointers
 
@@ -207,6 +215,7 @@
 |---|---------|------------|----------|
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.cpp) |
 | 2190B1 | [Sub-RBS (Easy Version)](https://codeforces.com/contest/2190/problem/B1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2190/B1%20-%20Sub-RBS%20(Easy%20Version)/solution.cpp) |
+| 2258C | [Far Cities](https://codeforces.com/contest/2258/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2258/C%20-%20Far%20Cities/solution.cpp) |
 
 ---
 

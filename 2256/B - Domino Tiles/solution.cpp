@@ -1,81 +1,54 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-#define ll long long
-#define endl '
-'
- 
-void solve() {
+void solve()
+{
     int n;
     cin >> n;
     string s;
     cin >> s;
-    char c = '0';
-    bool add = true;
-    int ans = 0;
-     for(int i = 0; i < n ; i+=2){
-        
-         if(s[i] != '?' && s[i] != c){add = false; break;}
-         if(i+1 < n && s[i+1] != '?' && s[i+1] != c){add = false; break;}
-        if(c =='0')c='1';
-        else c='0';
  
-     }
-     if(add)ans++;
+    vector<string>store;
  
-     c = '1';
-    add = true;
-    
-     for(int i = 0; i < n  ; i+=2){
-        
-         if(s[i] != '?' && s[i] != c){add = false; break;}
-         if(i+1 < n && s[i+1] != '?' && s[i+1] != c){add = false; break;}
-        if(c =='0')c='1';
-        else c='0';
+   for(char i='0' ; i<='1' ; i++)
+   {
+      for(char j='0' ; j<='1' ; j++)
+      {
  
-     }
-     if(add)ans++;
-    if(s[0] == '1' || s[0] =='?'){
- c = '0';
-    add = true;
-     
-     for(int i = 1; i < n  ; i+=2){
-        
-         if(s[i] != '?' && s[i] != c){add = false; break;}
-         if(i+1 < n && s[i+1] != '?' && s[i+1] != c){add = false; break;}
-        if(c =='0')c='1';
-        else c='0';
+        string temp;
+        temp.push_back(i);
+        temp.push_back(j);
+        for(int k=2; k<n ; k++)
+        {
+            if(temp[k-2]=='0') temp.push_back('1');
+            else temp.push_back('0');
+        }
+        store.push_back(temp);
+      }
+   }
  
-     }
-     if(add)ans++;
-    }
-    if(s[0] == '0' || s[0] =='?'){
- c = '1';
-    add = true;
-     
-     for(int i = 1; i < n  ; i+=2){
-        
-         if(s[i] != '?' && s[i] != c){add = false; break;}
-         if(i+1 < n && s[i+1] != '?' && s[i+1] != c){add = false; break;}
-        if(c =='0')c='1';
-        else c='0';
  
-     }
-     if(add)ans++;
-    }
-    cout << ans << endl;
+   int ans=0;
+   for(auto it:store)
+   {
+      bool m=true;
+      for(int i=0 ; i<n ; i++)
+      {
+        if(it[i]!=s[i]  && s[i]!='?') m=false;
+      }
+ 
+      if(m) ans++;
+   }
+ 
+   cout<<ans<<endl;
 }
  
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
- 
+int main()
+{
     int t;
     cin >> t;
- 
-    while (t--) {
+    while(t--)
+    {
         solve();
     }
- 
-    return 0;
 }

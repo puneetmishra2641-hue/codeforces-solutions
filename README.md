@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 38 | 22 |
+| 39 | 22 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [brute force](#brute-force) (5)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (10)
-- [data structures](#data-structures) (4)
+- [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (8)
 - [dp](#dp) (6)
 - [dsu](#dsu) (2)
@@ -96,6 +96,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 29C | [Mail Stamps](https://codeforces.com/contest/29/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/29/C%20-%20Mail%20Stamps/solution.cpp) |
+| 177D2 | [Encrypting Messages](https://codeforces.com/contest/177/problem/D2) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/177/D2%20-%20Encrypting%20Messages/solution.cpp) |
 | 816B | [Karen and Coffee](https://codeforces.com/contest/816/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/816/B%20-%20Karen%20and%20Coffee/solution.cpp) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.cpp) |

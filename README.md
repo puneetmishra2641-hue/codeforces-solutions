@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 40 | 22 |
+| 41 | 22 |
 
 ---
 
@@ -20,12 +20,12 @@
 - [constructive algorithms](#constructive-algorithms) (10)
 - [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (8)
-- [dp](#dp) (6)
+- [dp](#dp) (7)
 - [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
 - [graphs](#graphs) (6)
 - [greedy](#greedy) (10)
-- [implementation](#implementation) (13)
+- [implementation](#implementation) (14)
 - [interactive](#interactive) (1)
 - [math](#math) (15)
 - [number theory](#number-theory) (3)
@@ -33,7 +33,7 @@
 - [sortings](#sortings) (4)
 - [strings](#strings) (4)
 - [trees](#trees) (6)
-- [two pointers](#two-pointers) (5)
+- [two pointers](#two-pointers) (6)
 
 ---
 
@@ -118,6 +118,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 602B | [Approximating a Constant Range](https://codeforces.com/contest/602/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/602/B%20-%20Approximating%20a%20Constant%20Range/solution.cpp) |
 | 1805D | [A Wide, Wide Graph](https://codeforces.com/contest/1805/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1805/D%20-%20A%20Wide%2C%20Wide%20Graph/solution.cpp) |
 | 2179B | [Blackslex and Showering](https://codeforces.com/contest/2179/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2179/B%20-%20Blackslex%20and%20Showering/solution.cpp) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
@@ -169,6 +170,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 29C | [Mail Stamps](https://codeforces.com/contest/29/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/29/C%20-%20Mail%20Stamps/solution.cpp) |
+| 602B | [Approximating a Constant Range](https://codeforces.com/contest/602/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/602/B%20-%20Approximating%20a%20Constant%20Range/solution.cpp) |
 | 816B | [Karen and Coffee](https://codeforces.com/contest/816/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/816/B%20-%20Karen%20and%20Coffee/solution.cpp) |
 | 1332C | [K-Complete Word](https://codeforces.com/contest/1332/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1332/C%20-%20K-Complete%20Word/solution.cpp) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
@@ -256,6 +258,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 602B | [Approximating a Constant Range](https://codeforces.com/contest/602/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/602/B%20-%20Approximating%20a%20Constant%20Range/solution.cpp) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.cpp) |
 | 2190B1 | [Sub-RBS (Easy Version)](https://codeforces.com/contest/2190/problem/B1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2190/B1%20-%20Sub-RBS%20(Easy%20Version)/solution.cpp) |
 | 2197B | [Array and Permutation](https://codeforces.com/contest/2197/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2197/B%20-%20Array%20and%20Permutation/solution.cpp) |

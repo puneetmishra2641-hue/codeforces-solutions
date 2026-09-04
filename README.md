@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 45 | 22 |
+| 46 | 22 |
 
 ---
 
@@ -18,19 +18,19 @@
 - [brute force](#brute-force) (6)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (10)
-- [data structures](#data-structures) (8)
+- [data structures](#data-structures) (9)
 - [dfs and similar](#dfs-and-similar) (8)
 - [dp](#dp) (7)
 - [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
 - [graphs](#graphs) (6)
 - [greedy](#greedy) (11)
-- [implementation](#implementation) (15)
+- [implementation](#implementation) (16)
 - [interactive](#interactive) (1)
 - [math](#math) (15)
 - [number theory](#number-theory) (3)
 - [schedules](#schedules) (2)
-- [sortings](#sortings) (7)
+- [sortings](#sortings) (8)
 - [strings](#strings) (4)
 - [trees](#trees) (6)
 - [two pointers](#two-pointers) (7)
@@ -105,6 +105,7 @@
 | 863E | [Turn Off The TV](https://codeforces.com/contest/863/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/863/E%20-%20Turn%20Off%20The%20TV/solution.cpp) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
 | 1904C | [Array Game](https://codeforces.com/contest/1904/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1904/C%20-%20Array%20Game/solution.cpp) |
+| 2030D | [QED's Favorite Permutation](https://codeforces.com/contest/2030/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2030/D%20-%20QED's%20Favorite%20Permutation/solution.cpp) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.cpp) |
 
 ### dfs and similar
@@ -182,6 +183,7 @@
 | 816B | [Karen and Coffee](https://codeforces.com/contest/816/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/816/B%20-%20Karen%20and%20Coffee/solution.cpp) |
 | 1332C | [K-Complete Word](https://codeforces.com/contest/1332/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1332/C%20-%20K-Complete%20Word/solution.cpp) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
+| 2030D | [QED's Favorite Permutation](https://codeforces.com/contest/2030/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2030/D%20-%20QED's%20Favorite%20Permutation/solution.cpp) |
 | 2036C | [Anya and 1100](https://codeforces.com/contest/2036/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2036/C%20-%20Anya%20and%201100/solution.cpp) |
 | 2137C | [Maximum Even Sum](https://codeforces.com/contest/2137/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2137/C%20-%20Maximum%20Even%20Sum/solution.cpp) |
 | 2137E | [Mexification](https://codeforces.com/contest/2137/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2137/E%20-%20Mexification/solution.cpp) |
@@ -241,6 +243,7 @@
 | 863E | [Turn Off The TV](https://codeforces.com/contest/863/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/863/E%20-%20Turn%20Off%20The%20TV/solution.cpp) |
 | 1375D | [Replace by MEX](https://codeforces.com/contest/1375/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1375/D%20-%20Replace%20by%20MEX/solution.cpp) |
 | 1904C | [Array Game](https://codeforces.com/contest/1904/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1904/C%20-%20Array%20Game/solution.cpp) |
+| 2030D | [QED's Favorite Permutation](https://codeforces.com/contest/2030/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2030/D%20-%20QED's%20Favorite%20Permutation/solution.cpp) |
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2167/A%20-%20Square%3F/solution.cpp) |
 | 2179C | [Blackslex and Number Theory](https://codeforces.com/contest/2179/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2179/C%20-%20Blackslex%20and%20Number%20Theory/solution.cpp) |
 | 2197B | [Array and Permutation](https://codeforces.com/contest/2197/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2197/B%20-%20Array%20and%20Permutation/solution.cpp) |

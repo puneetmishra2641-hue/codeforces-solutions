@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 49 | 22 |
+| 50 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (1)
-- [Uncategorized](#uncategorized) (7)
+- [Uncategorized](#uncategorized) (8)
 - [binary search](#binary-search) (4)
 - [brute force](#brute-force) (6)
 - [combinatorics](#combinatorics) (1)
@@ -54,6 +54,7 @@
 | 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.cpp) |
 | 2259A | [Moo Language School](https://codeforces.com/contest/2259/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2259/A%20-%20Moo%20Language%20School/solution.cpp) |
 | 2259B | [Minus Two](https://codeforces.com/contest/2259/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2259/B%20-%20Minus%20Two/solution.cpp) |
+| 2259C | [101](https://codeforces.com/contest/2259/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2259/C%20-%20101/solution.cpp) |
 
 ### binary search
 

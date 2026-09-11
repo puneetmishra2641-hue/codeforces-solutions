@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 67 | 23 |
+| 68 | 23 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (11)
 - [binary search](#binary-search) (8)
-- [brute force](#brute-force) (10)
+- [brute force](#brute-force) (11)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (14)
 - [data structures](#data-structures) (12)
@@ -28,8 +28,8 @@
 - [greedy](#greedy) (16)
 - [implementation](#implementation) (20)
 - [interactive](#interactive) (1)
-- [math](#math) (20)
-- [number theory](#number-theory) (4)
+- [math](#math) (21)
+- [number theory](#number-theory) (5)
 - [schedules](#schedules) (2)
 - [sortings](#sortings) (11)
 - [strings](#strings) (6)
@@ -85,6 +85,7 @@
 |---|---------|------------|----------|
 | 363B | [Fence](https://codeforces.com/contest/363/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/363/B%20-%20Fence/solution.cpp) |
 | 1375D | [Replace by MEX](https://codeforces.com/contest/1375/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1375/D%20-%20Replace%20by%20MEX/solution.cpp) |
+| 1714E | [Add Modulo 10](https://codeforces.com/contest/1714/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1714/E%20-%20Add%20Modulo%2010/solution.cpp) |
 | 1904C | [Array Game](https://codeforces.com/contest/1904/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1904/C%20-%20Array%20Game/solution.cpp) |
 | 2036C | [Anya and 1100](https://codeforces.com/contest/2036/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2036/C%20-%20Anya%20and%201100/solution.cpp) |
 | 2112C | [Coloring Game](https://codeforces.com/contest/2112/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2112/C%20-%20Coloring%20Game/solution.cpp) |
@@ -248,6 +249,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1714E | [Add Modulo 10](https://codeforces.com/contest/1714/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1714/E%20-%20Add%20Modulo%2010/solution.cpp) |
 | 2122B | [Pile Shuffling](https://codeforces.com/contest/2122/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2122/B%20-%20Pile%20Shuffling/solution.cpp) |
 | 2137A | [Collatz Conjecture](https://codeforces.com/contest/2137/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2137/A%20-%20Collatz%20Conjecture/solution.cpp) |
 | 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.cpp) |
@@ -273,6 +275,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1714E | [Add Modulo 10](https://codeforces.com/contest/1714/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1714/E%20-%20Add%20Modulo%2010/solution.cpp) |
 | 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.cpp) |
 | 2179C | [Blackslex and Number Theory](https://codeforces.com/contest/2179/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2179/C%20-%20Blackslex%20and%20Number%20Theory/solution.cpp) |
 | 2244E | [Masha and the Garland](https://codeforces.com/contest/2244/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2244/E%20-%20Masha%20and%20the%20Garland/solution.cpp) |

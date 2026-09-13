@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 73 | 23 |
+| 74 | 23 |
 
 ---
 
@@ -19,13 +19,13 @@
 - [brute force](#brute-force) (11)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (14)
-- [data structures](#data-structures) (13)
+- [data structures](#data-structures) (14)
 - [dfs and similar](#dfs-and-similar) (9)
 - [dp](#dp) (13)
 - [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
 - [graphs](#graphs) (6)
-- [greedy](#greedy) (17)
+- [greedy](#greedy) (18)
 - [implementation](#implementation) (20)
 - [interactive](#interactive) (1)
 - [math](#math) (21)
@@ -141,6 +141,7 @@
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.cpp) |
 | 2244E | [Masha and the Garland](https://codeforces.com/contest/2244/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2244/E%20-%20Masha%20and%20the%20Garland/solution.cpp) |
 | 2259G | [Index Removal](https://codeforces.com/contest/2259/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2259/G%20-%20Index%20Removal/solution.cpp) |
+| 2264B | [Knife's Pill Farm](https://codeforces.com/contest/2264/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2264/B%20-%20Knife's%20Pill%20Farm/solution.cpp) |
 
 ### dfs and similar
 
@@ -219,6 +220,7 @@
 | 2244E | [Masha and the Garland](https://codeforces.com/contest/2244/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2244/E%20-%20Masha%20and%20the%20Garland/solution.cpp) |
 | 2254C1 | [Marenol (easy version)](https://codeforces.com/contest/2254/problem/C1) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2254/C1%20-%20Marenol%20(easy%20version)/solution.cpp) |
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.cpp) |
+| 2264B | [Knife's Pill Farm](https://codeforces.com/contest/2264/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2264/B%20-%20Knife's%20Pill%20Farm/solution.cpp) |
 
 ### implementation
 

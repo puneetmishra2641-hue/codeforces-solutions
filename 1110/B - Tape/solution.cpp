@@ -1,37 +1,55 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
-#define int long long
+#define int long long 
  
 void solve() {
-    int n, m , k;
-    cin >>n>> m >>k;
- 
-    vector<int> a(n);
-    for (int i = 0; i < n; i ++ ) {
+    int n , m ,k ;
+    cin >> n >> m >>k;
+    vector<int>a(n);
+    for(int i=0 ; i<n ; i++)
+    {
         cin >> a[i];
     }
  
-    sort(a.begin(), a.end());
+    multiset<int>st;
  
-    vector<int> d;
-    for(int i = 0 ; i < n - 1 ; i ++ ) {
-        int temp = a[i + 1] - a[i] - 1;
-        d.push_back(temp);
+    for(int i=1 ; i<n ; i++)
+    {
+        st.insert(a[i]-a[i-1]);
     }
  
-    sort(d.begin(), d.end());
+    int ans=n;
+    int temp=n-k;
  
-    int a1 = n; 
-    
-    for (int i = 0; i < n - k; i ++ ) {
-        a1 = a1 + d[i];
+    if(temp<=0)
+    {
+        cout<<ans<<endl;
+        return ;
     }
  
-    cout<< a1 <<endl;
+ 
+    while(temp)
+    {
+        ans+=(*st.begin() -1);
+ 
+        st.erase(st.begin());
+ 
+        temp--;
+    }
+ 
+ 
+    cout<<ans<<endl;
+ 
+ 
+ 
+ 
+ 
 }
  
 signed main() {
-   
-    solve();
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
+   solve();
+    return 0;
 }

@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 87 | 25 |
+| 88 | 25 |
 
 ---
 
@@ -25,15 +25,15 @@
 - [dp](#dp) (13)
 - [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
-- [games](#games) (1)
+- [games](#games) (2)
 - [graphs](#graphs) (6)
-- [greedy](#greedy) (25)
+- [greedy](#greedy) (26)
 - [implementation](#implementation) (22)
 - [interactive](#interactive) (2)
 - [math](#math) (25)
 - [number theory](#number-theory) (6)
 - [schedules](#schedules) (2)
-- [sortings](#sortings) (16)
+- [sortings](#sortings) (17)
 - [strings](#strings) (8)
 - [trees](#trees) (6)
 - [two pointers](#two-pointers) (13)
@@ -209,6 +209,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2127C | [Trip Shopping](https://codeforces.com/contest/2127/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2127/C%20-%20Trip%20Shopping/solution.cpp) |
 | 2255A | [Hot Potatoes at the Fairy Warehouse](https://codeforces.com/contest/2255/problem/A) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2255/A%20-%20Hot%20Potatoes%20at%20the%20Fairy%20Warehouse/solution.cpp) |
 
 ### graphs
@@ -237,6 +238,7 @@
 | 2045C | [Saraga](https://codeforces.com/contest/2045/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2045/C%20-%20Saraga/solution.cpp) |
 | 2112C | [Coloring Game](https://codeforces.com/contest/2112/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2112/C%20-%20Coloring%20Game/solution.cpp) |
 | 2122B | [Pile Shuffling](https://codeforces.com/contest/2122/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2122/B%20-%20Pile%20Shuffling/solution.cpp) |
+| 2127C | [Trip Shopping](https://codeforces.com/contest/2127/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2127/C%20-%20Trip%20Shopping/solution.cpp) |
 | 2137C | [Maximum Even Sum](https://codeforces.com/contest/2137/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2137/C%20-%20Maximum%20Even%20Sum/solution.cpp) |
 | 2164C | [Dungeon](https://codeforces.com/contest/2164/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2164/C%20-%20Dungeon/solution.cpp) |
 | 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.cpp) |
@@ -346,6 +348,7 @@
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1904C | [Array Game](https://codeforces.com/contest/1904/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1904/C%20-%20Array%20Game/solution.cpp) |
 | 2030D | [QED's Favorite Permutation](https://codeforces.com/contest/2030/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2030/D%20-%20QED's%20Favorite%20Permutation/solution.cpp) |
+| 2127C | [Trip Shopping](https://codeforces.com/contest/2127/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2127/C%20-%20Trip%20Shopping/solution.cpp) |
 | 2164C | [Dungeon](https://codeforces.com/contest/2164/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2164/C%20-%20Dungeon/solution.cpp) |
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2167/A%20-%20Square%3F/solution.cpp) |
 | 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2167/B%20-%20Your%20Name/solution.cpp) |

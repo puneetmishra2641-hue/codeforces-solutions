@@ -1,0 +1,66 @@
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.util.StringTokenizer
+import kotlin.math.abs
+import kotlin.math.max
+import kotlin.math.min
+ 
+class FastScanner {
+    private val br = BufferedReader(InputStreamReader(System.`in`))
+    private var st: StringTokenizer? = null
+ 
+    fun nextLong(): Long {
+        while (st == null || !st!!.hasMoreTokens()) {
+            st = StringTokenizer(br.readLine())
+        }
+        return st!!.nextToken().toLong()
+    }
+ 
+    fun nextInt(): Int = nextLong().toInt()
+}
+ 
+fun solve(fs: FastScanner) {
+ 
+    var a = fs.nextLong()
+    var b = fs.nextLong()
+    val c = fs.nextLong()
+    val d = fs.nextLong()
+ 
+    var ans = 0L
+ 
+    if (c == d) {
+        ans += abs(a - b)
+        ans += c - max(a, b)
+ 
+        println(ans)
+        return
+    }
+ 
+    if (min(c, d) < max(a, b)) {
+        println(c - a + d - b)
+        return
+    }
+ 
+    ans += abs(a - b)
+ 
+    a = max(a, b)
+    b = max(a, b)
+ 
+    val x = min(c, d)
+ 
+    ans += x - a
+    ans += max(c, d) - min(c, d)
+ 
+    println(ans)
+}
+ 
+fun main() {
+ 
+    val fs = FastScanner()
+ 
+    val t = fs.nextInt()
+ 
+    repeat(t) {
+        solve(fs)
+    }
+}

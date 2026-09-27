@@ -1,24 +1,32 @@
-<h2><a href="https://codeforces.com/contest/1950/problem/A" target="_blank" rel="noopener noreferrer">1950A — Stair, Peak, or Neither?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 800 |
-| **Language** | C++23 (GCC 14-64, msys2) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 1950A](https://codeforces.com/contest/1950/problem/A) |
-
-## Topics
-`implementation`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">A. Stair, Peak, or Neither?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given three digits <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-1"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-2">a</span></span></span>$a$, <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-3"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-4">b</span></span></span>$b$, and <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-5"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-6">c</span></span></span>$c$. Determine whether they form a stair, a peak, or neither. </p><ul> <li> A <span class="tex-font-style-it">stair</span> satisfies the condition <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-7"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-8">a</span><span class="MJXp-mo" id="MJXp-Span-9" style="margin-left: 0.333em; margin-right: 0.333em;"><</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-10">b</span><span class="MJXp-mo" id="MJXp-Span-11" style="margin-left: 0.333em; margin-right: 0.333em;"><</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-12">c</span></span></span>$a \lt b \lt c$. </li><li> A <span class="tex-font-style-it">peak</span> satisfies the condition <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-13"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-14">a</span><span class="MJXp-mo" id="MJXp-Span-15" style="margin-left: 0.333em; margin-right: 0.333em;"><</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-16">b</span><span class="MJXp-mo" id="MJXp-Span-17" style="margin-left: 0.333em; margin-right: 0.333em;">></span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-18">c</span></span></span>$a \lt b \gt c$. </li></ul></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-19"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-20">t</span></span></span>$t$ (<span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-21"><span class="MJXp-mn" id="MJXp-Span-22">1</span><span class="MJXp-mo" id="MJXp-Span-23" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-24">t</span><span class="MJXp-mo" id="MJXp-Span-25" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mn" id="MJXp-Span-26">1000</span></span></span>$1 \leq t \leq 1000$) — the number of test cases.</p><p>The only line of each test case contains three digits <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-27"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-28">a</span></span></span>$a$, <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-29"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-30">b</span></span></span>$b$, <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-31"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-32">c</span></span></span>$c$ (<span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-33"><span class="MJXp-mn" id="MJXp-Span-34">0</span><span class="MJXp-mo" id="MJXp-Span-35" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-36">a</span></span></span>$0 \leq a$, <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-37"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-38">b</span></span></span>$b$, <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-39"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-40">c</span><span class="MJXp-mo" id="MJXp-Span-41" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mn" id="MJXp-Span-42">9</span></span></span>$c \leq 9$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output "<span class="tex-font-style-tt">STAIR</span>" if the digits form a stair, "<span class="tex-font-style-tt">PEAK</span>" if the digits form a peak, and "<span class="tex-font-style-tt">NONE</span>" otherwise (output the strings without quotes).</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008916475869511077" id="id0049118915890079295" class="input-output-copier">Copy</div></div><pre id="id008916475869511077"><div class="test-example-line test-example-line-even test-example-line-0">7</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2 3</div><div class="test-example-line test-example-line-even test-example-line-2">3 2 1</div><div class="test-example-line test-example-line-odd test-example-line-3">1 5 3</div><div class="test-example-line test-example-line-even test-example-line-4">3 4 1</div><div class="test-example-line test-example-line-odd test-example-line-5">0 0 0</div><div class="test-example-line test-example-line-even test-example-line-6">4 1 7</div><div class="test-example-line test-example-line-odd test-example-line-7">4 5 7</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id004853054613381873" id="id006764864726988513" class="input-output-copier">Copy</div></div><pre id="id004853054613381873">STAIR
-NONE
-PEAK
-PEAK
-NONE
-NONE
-STAIR
-</pre></div></div></div>
+#include <bits/stdc++.h>
+using namespace std;
+ 
+void solve() {
+    int a ,b,c;
+    cin>>a>>b>>c;
+    if(c>b && b>a)
+    {
+        cout<<"STAIR"<<endl;
+        return;
+    }
+ 
+    if(b>a && b>c)
+    {
+        cout<<"PEAK"<<endl;
+        return;
+    }
+ 
+    cout<<"NONE"<<endl;
+}
+ 
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
+    int t;
+    cin >> t;
+    while(t--) {
+        solve();
+    }
+    return 0;
+}

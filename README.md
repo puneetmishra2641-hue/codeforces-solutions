@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 109 | 26 |
+| 111 | 26 |
 
 ---
 
@@ -15,11 +15,11 @@
 - [*special](#special) (2)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (16)
-- [binary search](#binary-search) (13)
+- [binary search](#binary-search) (14)
 - [brute force](#brute-force) (18)
 - [combinatorics](#combinatorics) (3)
 - [constructive algorithms](#constructive-algorithms) (20)
-- [data structures](#data-structures) (16)
+- [data structures](#data-structures) (17)
 - [dfs and similar](#dfs-and-similar) (9)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (16)
@@ -27,10 +27,10 @@
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (2)
 - [graphs](#graphs) (7)
-- [greedy](#greedy) (36)
+- [greedy](#greedy) (37)
 - [implementation](#implementation) (26)
 - [interactive](#interactive) (2)
-- [math](#math) (31)
+- [math](#math) (32)
 - [number theory](#number-theory) (6)
 - [schedules](#schedules) (2)
 - [sortings](#sortings) (23)
@@ -89,6 +89,7 @@
 | 2112C | [Coloring Game](https://codeforces.com/contest/2112/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2112/C%20-%20Coloring%20Game/solution.cpp) |
 | 2164C | [Dungeon](https://codeforces.com/contest/2164/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2164/C%20-%20Dungeon/solution.cpp) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
+| 2192C | [All-in-one Gun](https://codeforces.com/contest/2192/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2192/C%20-%20All-in-one%20Gun/solution.cpp) |
 | 2197A | [Friendly Numbers](https://codeforces.com/contest/2197/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2197/A%20-%20Friendly%20Numbers/solution.cpp) |
 | 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
 | 2259G | [Index Removal](https://codeforces.com/contest/2259/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2259/G%20-%20Index%20Removal/solution.cpp) |
@@ -164,6 +165,7 @@
 | 2030D | [QED's Favorite Permutation](https://codeforces.com/contest/2030/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2030/D%20-%20QED's%20Favorite%20Permutation/solution.cpp) |
 | 2164C | [Dungeon](https://codeforces.com/contest/2164/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2164/C%20-%20Dungeon/solution.cpp) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.cpp) |
+| 2201A1 | [Lost Civilization (Easy Version)](https://codeforces.com/contest/2201/problem/A1) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2201/A1%20-%20Lost%20Civilization%20(Easy%20Version)/solution.cpp) |
 | 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
 | 2244E | [Masha and the Garland](https://codeforces.com/contest/2244/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2244/E%20-%20Masha%20and%20the%20Garland/solution.cpp) |
 | 2253B | [Hypercarp and the Control Panel](https://codeforces.com/contest/2253/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2253/B%20-%20Hypercarp%20and%20the%20Control%20Panel/solution.cpp) |
@@ -268,6 +270,7 @@
 | 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.cpp) |
 | 2179B | [Blackslex and Showering](https://codeforces.com/contest/2179/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2179/B%20-%20Blackslex%20and%20Showering/solution.cpp) |
 | 2190B1 | [Sub-RBS (Easy Version)](https://codeforces.com/contest/2190/problem/B1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2190/B1%20-%20Sub-RBS%20(Easy%20Version)/solution.cpp) |
+| 2192C | [All-in-one Gun](https://codeforces.com/contest/2192/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2192/C%20-%20All-in-one%20Gun/solution.cpp) |
 | 2194A | [Lawn Mower](https://codeforces.com/contest/2194/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2194/A%20-%20Lawn%20Mower/solution.cpp) |
 | 2199B | [Two Towers](https://codeforces.com/contest/2199/problem/B) | 1400 | [Kotlin 2.2](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2199/B%20-%20Two%20Towers/solution.txt) |
 | 2211B | [Mickey Mouse Constructive](https://codeforces.com/contest/2211/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2211/B%20-%20Mickey%20Mouse%20Constructive/solution.cpp) |
@@ -346,6 +349,7 @@
 | 2184B | [Hourglass](https://codeforces.com/contest/2184/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2184/B%20-%20Hourglass/solution.cpp) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.cpp) |
+| 2192C | [All-in-one Gun](https://codeforces.com/contest/2192/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2192/C%20-%20All-in-one%20Gun/solution.cpp) |
 | 2194A | [Lawn Mower](https://codeforces.com/contest/2194/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2194/A%20-%20Lawn%20Mower/solution.cpp) |
 | 2197A | [Friendly Numbers](https://codeforces.com/contest/2197/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2197/A%20-%20Friendly%20Numbers/solution.cpp) |
 | 2199B | [Two Towers](https://codeforces.com/contest/2199/problem/B) | 1400 | [Kotlin 2.2](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2199/B%20-%20Two%20Towers/solution.txt) |

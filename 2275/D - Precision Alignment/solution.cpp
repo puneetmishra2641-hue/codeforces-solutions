@@ -2,137 +2,94 @@
 using namespace std;
 #define int long long
  
-void solve()
-{
-    int n, k;
-    cin >> n >> k;
-    vector<int> a(n), b(n), c(n);
+void solve() {
+    int n ,k;
+    cin>>n>>k;
  
-   
- 
-    map<int,int>mp,mp3;
-    map<pair<int,int>,int>mp2;
-    vector<int>an;
-   
-    int x=LLONG_MAX;
- 
-    for (int i = 0; i < n; i++)
-    {
-        cin >> a[i] >> b[i] >> c[i];
- 
-         if((a[i]==b[i]) && (b[i]==c[i]))
-        {
-           
-           int tt=a[i]+b[i]+c[i];
-           x=min(x,tt);
-            
-        }
- 
-        if((a[i]<= b[i])  && (b[i]<=c[i]))
-        {
- 
-            mp[a[i]+b[i]+c[i]]++;
-            
-            mp3[a[i]+b[i]+c[i]]++;
- 
-            mp2[{a[i]+b[i]+c[i],mp[a[i]+b[i]+c[i]]}]=min(b[i]-a[i]+1,c[i]-b[i]+1);
- 
- 
- 
-        }
- 
-        an.push_back(a[i]+b[i]+c[i]);
- 
-       
- 
- 
-      
-    }
+    vector<pair<int,int>>vp;
  
     
  
-    sort(an.begin(),an.end());
- 
-    for(int i=0 ; i<n-1;i++)
+    for(int i=0 ; i<n;i++)
     {
-        int gap=an[i+1]-an[i];
-        gap*=(i+1);
+        int a,b,c;
+        cin>>a>>b>>c;
  
-        if(mp3.count(an[i]))
+        if(a==b && b==c)
         {
-            int temp=mp2[{an[i],mp3[an[i]]}];
-            mp3[an[i]]--;
-            if(mp3[an[i]]==0) mp3.erase(an[i]);
+            vp.push_back({a+b+c,LLONG_MAX});
+            continue;
+        }
  
-          
+        if(a<=b && b<=c)
+        {
+            vp.push_back({a+b+c,2*min(b-a+1,c-b+1)});
+        }
  
-            
-            k-=(temp*2);
+        else vp.push_back({a+b+c,0});
+    }
  
-            if(k<=0)
-            {
-                cout<<min(an[i],x)<<endl;
-                return;
+    int start=-10000000000;
+    int end=20000000000000000000;
+ 
+    int ans=0;
+    sort(vp.begin(),vp.end());
+ 
+    while(start<=end)
+    {
+        int mid=start+(end-start)/2;
+ 
+        int temp=k;
+        bool puneet=true;
+        for(int i=0;i<vp.size();i++)
+        {
+ 
+            if(vp[i].first >=mid)
+            {              
+                break;
             }
  
-           if(k<gap)
-           {
-              cout<<min(an[i]+(k/(i+1)),x)<<endl;
-              return;
-           }
+            if(vp[i].second==LLONG_MAX)
+            {
+                puneet=false;
+                break;
+            }
  
-           k-=gap;
-           continue;
+            int extra=mid-vp[i].first+vp[i].second;
+ 
+            temp-=extra;
+            if(temp<0)
+            {
+                puneet=false;
+                break;
+            }
+ 
  
         }
  
+        if(puneet)
+        {
+            ans=mid;
+            start=mid+1;
+            continue;
+        }
+ 
+        end=mid-1;
  
  
-         if(k<=0)
-            {
-                cout<<min(an[i],x)<<endl;
-                return;
-            }
- 
-           if(k<gap)
-           {
-              cout<<min(an[i]+(k/(i+1)),x)<<endl;
-              return;
-           }
- 
-           k-=gap;
-           continue;
  
     }
  
- 
-    if(mp3.count(an[n-1]))
-    {
-         int temp=mp2[{an[n-1],mp3[an[n-1]]}];
-         k-=(temp*2);
- 
-    }
- 
-    if(k<0)
-    {
-         cout<<min(an[n-1],x)<<endl;
-         return;
- 
-    }
- 
- 
-    cout<<min(an[n-1]+(k/n),x)<<endl;
+    cout<<ans<<endl;
 }
  
-signed main()
-{
+signed main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
- 
+    
     int t;
     cin >> t;
-    while (t--)
-    {
+    while(t--) {
         solve();
     }
     return 0;

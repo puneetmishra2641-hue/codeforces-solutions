@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 127 | 26 |
+| 128 | 26 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [*special](#special) (2)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (20)
-- [binary search](#binary-search) (16)
+- [binary search](#binary-search) (17)
 - [brute force](#brute-force) (21)
 - [combinatorics](#combinatorics) (4)
 - [constructive algorithms](#constructive-algorithms) (23)
@@ -27,17 +27,17 @@
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (2)
 - [graphs](#graphs) (7)
-- [greedy](#greedy) (45)
+- [greedy](#greedy) (46)
 - [implementation](#implementation) (30)
 - [interactive](#interactive) (2)
-- [math](#math) (36)
+- [math](#math) (37)
 - [number theory](#number-theory) (8)
 - [schedules](#schedules) (2)
 - [sortings](#sortings) (23)
 - [strings](#strings) (11)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (6)
-- [two pointers](#two-pointers) (17)
+- [two pointers](#two-pointers) (18)
 
 ---
 
@@ -92,6 +92,7 @@
 | 2075C | [Two Colors](https://codeforces.com/contest/2075/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2075/C%20-%20Two%20Colors/solution.cpp) |
 | 2112C | [Coloring Game](https://codeforces.com/contest/2112/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2112/C%20-%20Coloring%20Game/solution.cpp) |
 | 2164C | [Dungeon](https://codeforces.com/contest/2164/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2164/C%20-%20Dungeon/solution.cpp) |
+| 2183C | [War Strategy](https://codeforces.com/contest/2183/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2183/C%20-%20War%20Strategy/solution.cpp) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 | 2192C | [All-in-one Gun](https://codeforces.com/contest/2192/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2192/C%20-%20All-in-one%20Gun/solution.cpp) |
 | 2197A | [Friendly Numbers](https://codeforces.com/contest/2197/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2197/A%20-%20Friendly%20Numbers/solution.cpp) |
@@ -286,6 +287,7 @@
 | 2164C | [Dungeon](https://codeforces.com/contest/2164/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2164/C%20-%20Dungeon/solution.cpp) |
 | 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.cpp) |
 | 2179B | [Blackslex and Showering](https://codeforces.com/contest/2179/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2179/B%20-%20Blackslex%20and%20Showering/solution.cpp) |
+| 2183C | [War Strategy](https://codeforces.com/contest/2183/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2183/C%20-%20War%20Strategy/solution.cpp) |
 | 2190B1 | [Sub-RBS (Easy Version)](https://codeforces.com/contest/2190/problem/B1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2190/B1%20-%20Sub-RBS%20(Easy%20Version)/solution.cpp) |
 | 2192C | [All-in-one Gun](https://codeforces.com/contest/2192/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2192/C%20-%20All-in-one%20Gun/solution.cpp) |
 | 2194A | [Lawn Mower](https://codeforces.com/contest/2194/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2194/A%20-%20Lawn%20Mower/solution.cpp) |
@@ -374,6 +376,7 @@
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2167/A%20-%20Square%3F/solution.cpp) |
 | 2179A | [Blackslex and Password](https://codeforces.com/contest/2179/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2179/A%20-%20Blackslex%20and%20Password/solution.cpp) |
 | 2179C | [Blackslex and Number Theory](https://codeforces.com/contest/2179/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2179/C%20-%20Blackslex%20and%20Number%20Theory/solution.cpp) |
+| 2183C | [War Strategy](https://codeforces.com/contest/2183/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2183/C%20-%20War%20Strategy/solution.cpp) |
 | 2184A | [Social Experiment](https://codeforces.com/contest/2184/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2184/A%20-%20Social%20Experiment/solution.cpp) |
 | 2184B | [Hourglass](https://codeforces.com/contest/2184/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2184/B%20-%20Hourglass/solution.cpp) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
@@ -489,6 +492,7 @@
 | 2032C | [Trinity](https://codeforces.com/contest/2032/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2032/C%20-%20Trinity/solution.cpp) |
 | 2112C | [Coloring Game](https://codeforces.com/contest/2112/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2112/C%20-%20Coloring%20Game/solution.cpp) |
 | 2163C | [Monopati](https://codeforces.com/contest/2163/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2163/C%20-%20Monopati/solution.cpp) |
+| 2183C | [War Strategy](https://codeforces.com/contest/2183/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2183/C%20-%20War%20Strategy/solution.cpp) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.cpp) |
 | 2190B1 | [Sub-RBS (Easy Version)](https://codeforces.com/contest/2190/problem/B1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2190/B1%20-%20Sub-RBS%20(Easy%20Version)/solution.cpp) |
 | 2197B | [Array and Permutation](https://codeforces.com/contest/2197/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2197/B%20-%20Array%20and%20Permutation/solution.cpp) |

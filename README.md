@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 133 | 26 |
+| 135 | 26 |
 
 ---
 
@@ -18,8 +18,8 @@
 - [binary search](#binary-search) (17)
 - [brute force](#brute-force) (23)
 - [combinatorics](#combinatorics) (4)
-- [constructive algorithms](#constructive-algorithms) (23)
-- [data structures](#data-structures) (20)
+- [constructive algorithms](#constructive-algorithms) (24)
+- [data structures](#data-structures) (21)
 - [dfs and similar](#dfs-and-similar) (9)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (20)
@@ -27,13 +27,13 @@
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (2)
 - [graphs](#graphs) (7)
-- [greedy](#greedy) (50)
-- [implementation](#implementation) (31)
+- [greedy](#greedy) (51)
+- [implementation](#implementation) (32)
 - [interactive](#interactive) (2)
-- [math](#math) (39)
+- [math](#math) (40)
 - [number theory](#number-theory) (9)
 - [schedules](#schedules) (2)
-- [sortings](#sortings) (25)
+- [sortings](#sortings) (27)
 - [strings](#strings) (11)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (6)
@@ -165,6 +165,7 @@
 | 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.cpp) |
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.cpp) |
 | 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.cpp) |
+| 2266D | [Falling Concrete](https://codeforces.com/contest/2266/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2266/D%20-%20Falling%20Concrete/solution.cpp) |
 
 ### data structures
 
@@ -190,6 +191,7 @@
 | 2253B | [Hypercarp and the Control Panel](https://codeforces.com/contest/2253/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2253/B%20-%20Hypercarp%20and%20the%20Control%20Panel/solution.cpp) |
 | 2259G | [Index Removal](https://codeforces.com/contest/2259/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2259/G%20-%20Index%20Removal/solution.cpp) |
 | 2264B | [Knife's Pill Farm](https://codeforces.com/contest/2264/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2264/B%20-%20Knife's%20Pill%20Farm/solution.cpp) |
+| 2266D | [Falling Concrete](https://codeforces.com/contest/2266/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2266/D%20-%20Falling%20Concrete/solution.cpp) |
 
 ### dfs and similar
 
@@ -278,6 +280,7 @@
 | 845C | [Two TVs](https://codeforces.com/contest/845/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/845/C%20-%20Two%20TVs/solution.cpp) |
 | 891A | [Pride](https://codeforces.com/contest/891/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/891/A%20-%20Pride/solution.cpp) |
 | 960B | [Minimize the error](https://codeforces.com/contest/960/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/960/B%20-%20Minimize%20the%20error/solution.cpp) |
+| 976C | [Nested Segments](https://codeforces.com/contest/976/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/976/C%20-%20Nested%20Segments/solution.cpp) |
 | 1110B | [Tape](https://codeforces.com/contest/1110/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1110/B%20-%20Tape/solution.cpp) |
 | 1325C | [Ehab and Path-etic MEXs](https://codeforces.com/contest/1325/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1325/C%20-%20Ehab%20and%20Path-etic%20MEXs/solution.cpp) |
 | 1332C | [K-Complete Word](https://codeforces.com/contest/1332/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1332/C%20-%20K-Complete%20Word/solution.cpp) |
@@ -334,6 +337,7 @@
 | 474B | [Worms](https://codeforces.com/contest/474/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/474/B%20-%20Worms/solution.cpp) |
 | 602B | [Approximating a Constant Range](https://codeforces.com/contest/602/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/602/B%20-%20Approximating%20a%20Constant%20Range/solution.cpp) |
 | 816B | [Karen and Coffee](https://codeforces.com/contest/816/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/816/B%20-%20Karen%20and%20Coffee/solution.cpp) |
+| 976C | [Nested Segments](https://codeforces.com/contest/976/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/976/C%20-%20Nested%20Segments/solution.cpp) |
 | 1332C | [K-Complete Word](https://codeforces.com/contest/1332/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1332/C%20-%20K-Complete%20Word/solution.cpp) |
 | 1651C | [Fault-tolerant Network](https://codeforces.com/contest/1651/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1651/C%20-%20Fault-tolerant%20Network/solution.cpp) |
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.cpp) |
@@ -409,6 +413,7 @@
 | 2256B | [Domino Tiles](https://codeforces.com/contest/2256/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2256/B%20-%20Domino%20Tiles/solution.cpp) |
 | 2257B | [Gigantomachy](https://codeforces.com/contest/2257/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2257/B%20-%20Gigantomachy/solution.cpp) |
 | 2259G | [Index Removal](https://codeforces.com/contest/2259/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2259/G%20-%20Index%20Removal/solution.cpp) |
+| 2266D | [Falling Concrete](https://codeforces.com/contest/2266/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2266/D%20-%20Falling%20Concrete/solution.cpp) |
 | 2267C | [GCD Treasury](https://codeforces.com/contest/2267/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2267/C%20-%20GCD%20Treasury/solution.cpp) |
 
 ### number theory
@@ -441,6 +446,7 @@
 | 845C | [Two TVs](https://codeforces.com/contest/845/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/845/C%20-%20Two%20TVs/solution.cpp) |
 | 863E | [Turn Off The TV](https://codeforces.com/contest/863/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/863/E%20-%20Turn%20Off%20The%20TV/solution.cpp) |
 | 960B | [Minimize the error](https://codeforces.com/contest/960/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/960/B%20-%20Minimize%20the%20error/solution.cpp) |
+| 976C | [Nested Segments](https://codeforces.com/contest/976/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/976/C%20-%20Nested%20Segments/solution.cpp) |
 | 1110B | [Tape](https://codeforces.com/contest/1110/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1110/B%20-%20Tape/solution.cpp) |
 | 1375D | [Replace by MEX](https://codeforces.com/contest/1375/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1375/D%20-%20Replace%20by%20MEX/solution.cpp) |
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
@@ -461,6 +467,7 @@
 | 2248B | [Merge to Match](https://codeforces.com/contest/2248/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2248/B%20-%20Merge%20to%20Match/solution.cpp) |
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.cpp) |
 | 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2254/D%20-%20Silhouette/solution.cpp) |
+| 2266D | [Falling Concrete](https://codeforces.com/contest/2266/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2266/D%20-%20Falling%20Concrete/solution.cpp) |
 
 ### strings
 

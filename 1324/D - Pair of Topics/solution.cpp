@@ -1,19 +1,5 @@
 #include <bits/stdc++.h>
-#include <ext/pb_ds/assoc_container.hpp>
-#include <ext/pb_ds/tree_policy.hpp>
- 
 using namespace std;
-using namespace __gnu_pbds;
- 
-template <typename T>
-using ordered_multiset = tree<
-    T,
-    null_type,
-    less_equal<T>,
-    rb_tree_tag,
-    tree_order_statistics_node_update
->;
- 
 #define int long long
  
 void solve() {
@@ -27,37 +13,49 @@ void solve() {
         cin>>a[i];
     }
  
-    for(int i=0;i<n;i++)
+    for(int i=0 ; i<n ; i++)
     {
         cin>>b[i];
     }
  
-    vector<int>temp;
-    int ans=0;
- 
-    ordered_multiset<int>os;
- 
-    for(int i=0; i< n ; i++)
+    vector<int>c;
+    for(int i=0 ; i<n ; i++)
     {
-        int val=a[i]-b[i];
+        c.push_back(a[i]-b[i]);
+    }
  
-       ans+=os.order_of_key(val);
-       os.insert(b[i]-a[i]);
- 
- 
+    sort(c.begin(),c.end());
  
  
+ 
+    int ans=0;
+    for(int i=0 ; i<n ; i++)
+    {
+        int val=c[i]*(-1);
+ 
+        auto it=upper_bound(c.begin()+i+1,c.end(),val);
+        int idx=it-c.begin();
+        ans+=(n-idx);
+ 
+ 
+ 
+      
+      
+ 
+ 
+        
     }
  
     cout<<ans<<endl;
-   
+ 
 }
  
 signed main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     
-   solve();
+    solve();
+ 
  
     return 0;
 }

@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 141 | 27 |
+| 142 | 27 |
 
 ---
 
@@ -15,11 +15,11 @@
 - [*special](#special) (2)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (20)
-- [binary search](#binary-search) (17)
+- [binary search](#binary-search) (18)
 - [brute force](#brute-force) (24)
 - [combinatorics](#combinatorics) (5)
 - [constructive algorithms](#constructive-algorithms) (25)
-- [data structures](#data-structures) (22)
+- [data structures](#data-structures) (23)
 - [dfs and similar](#dfs-and-similar) (9)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (20)
@@ -34,11 +34,11 @@
 - [math](#math) (43)
 - [number theory](#number-theory) (10)
 - [schedules](#schedules) (2)
-- [sortings](#sortings) (29)
+- [sortings](#sortings) (30)
 - [strings](#strings) (11)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (6)
-- [two pointers](#two-pointers) (18)
+- [two pointers](#two-pointers) (19)
 
 ---
 
@@ -86,6 +86,7 @@
 |---|---------|------------|----------|
 | 474B | [Worms](https://codeforces.com/contest/474/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/474/B%20-%20Worms/solution.cpp) |
 | 816B | [Karen and Coffee](https://codeforces.com/contest/816/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/816/B%20-%20Karen%20and%20Coffee/solution.cpp) |
+| 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
 | 1883G1 | [Dances (Easy version)](https://codeforces.com/contest/1883/problem/G1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1883/G1%20-%20Dances%20(Easy%20version)/solution.cpp) |
 | 1904C | [Array Game](https://codeforces.com/contest/1904/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1904/C%20-%20Array%20Game/solution.cpp) |
 | 2009E | [Klee's SUPER DUPER LARGE Array!!!](https://codeforces.com/contest/2009/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2009/E%20-%20Klee's%20SUPER%20DUPER%20LARGE%20Array!!!/solution.cpp) |
@@ -182,6 +183,7 @@
 | 845C | [Two TVs](https://codeforces.com/contest/845/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/845/C%20-%20Two%20TVs/solution.cpp) |
 | 863E | [Turn Off The TV](https://codeforces.com/contest/863/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/863/E%20-%20Turn%20Off%20The%20TV/solution.cpp) |
 | 960B | [Minimize the error](https://codeforces.com/contest/960/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/960/B%20-%20Minimize%20the%20error/solution.cpp) |
+| 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
 | 1651C | [Fault-tolerant Network](https://codeforces.com/contest/1651/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1651/C%20-%20Fault-tolerant%20Network/solution.cpp) |
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
@@ -470,6 +472,7 @@
 | 976C | [Nested Segments](https://codeforces.com/contest/976/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/976/C%20-%20Nested%20Segments/solution.cpp) |
 | 1110B | [Tape](https://codeforces.com/contest/1110/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1110/B%20-%20Tape/solution.cpp) |
 | 1165E | [Two Arrays and Sum of Functions](https://codeforces.com/contest/1165/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1165/E%20-%20Two%20Arrays%20and%20Sum%20of%20Functions/solution.cpp) |
+| 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
 | 1375D | [Replace by MEX](https://codeforces.com/contest/1375/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1375/D%20-%20Replace%20by%20MEX/solution.cpp) |
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1904C | [Array Game](https://codeforces.com/contest/1904/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1904/C%20-%20Array%20Game/solution.cpp) |
@@ -529,6 +532,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 602B | [Approximating a Constant Range](https://codeforces.com/contest/602/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/602/B%20-%20Approximating%20a%20Constant%20Range/solution.cpp) |
+| 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.cpp) |
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1883G1 | [Dances (Easy version)](https://codeforces.com/contest/1883/problem/G1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1883/G1%20-%20Dances%20(Easy%20version)/solution.cpp) |

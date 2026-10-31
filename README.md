@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 151 | 27 |
+| 152 | 27 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (2)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (24)
+- [Uncategorized](#uncategorized) (25)
 - [binary search](#binary-search) (20)
 - [brute force](#brute-force) (25)
 - [combinatorics](#combinatorics) (6)
@@ -83,6 +83,7 @@
 | 2275B | [Did Not Go to Print](https://codeforces.com/contest/2275/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2275/B%20-%20Did%20Not%20Go%20to%20Print/solution.cpp) |
 | 2275C | [Unrequited Love](https://codeforces.com/contest/2275/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2275/C%20-%20Unrequited%20Love/solution.cpp) |
 | 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.cpp) |
+| 2278B | [Stakes and Shapes](https://codeforces.com/contest/2278/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2278/B%20-%20Stakes%20and%20Shapes/solution.cpp) |
 
 ### binary search
 

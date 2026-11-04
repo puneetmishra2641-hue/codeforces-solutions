@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 153 | 27 |
+| 158 | 27 |
 
 ---
 
@@ -14,22 +14,22 @@
 
 - [*special](#special) (2)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (20)
-- [binary search](#binary-search) (22)
+- [Uncategorized](#uncategorized) (28)
+- [binary search](#binary-search) (21)
 - [brute force](#brute-force) (25)
 - [combinatorics](#combinatorics) (6)
-- [constructive algorithms](#constructive-algorithms) (30)
+- [constructive algorithms](#constructive-algorithms) (28)
 - [data structures](#data-structures) (26)
 - [dfs and similar](#dfs-and-similar) (9)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (22)
+- [dp](#dp) (21)
 - [dsu](#dsu) (3)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (2)
 - [graphs](#graphs) (7)
-- [greedy](#greedy) (58)
+- [greedy](#greedy) (57)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (40)
+- [implementation](#implementation) (39)
 - [interactive](#interactive) (2)
 - [math](#math) (46)
 - [number theory](#number-theory) (11)
@@ -76,9 +76,17 @@
 | 2266B | [Three Piles](https://codeforces.com/contest/2266/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2266/B%20-%20Three%20Piles/solution.cpp) |
 | 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.cpp) |
 | 2271A | [Robot Odd Moves](https://codeforces.com/contest/2271/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2271/A%20-%20Robot%20Odd%20Moves/solution.cpp) |
+| 2272A | [Maximize One MEX](https://codeforces.com/contest/2272/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2272/A%20-%20Maximize%20One%20MEX/solution.cpp) |
+| 2272B | [Frogs Jump](https://codeforces.com/contest/2272/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2272/B%20-%20Frogs%20Jump/solution.cpp) |
+| 2272C | [Yet Another Black Cell Problem](https://codeforces.com/contest/2272/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2272/C%20-%20Yet%20Another%20Black%20Cell%20Problem/solution.cpp) |
 | 2275A | [In Search of Convenience](https://codeforces.com/contest/2275/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2275/A%20-%20In%20Search%20of%20Convenience/solution.cpp) |
 | 2275B | [Did Not Go to Print](https://codeforces.com/contest/2275/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2275/B%20-%20Did%20Not%20Go%20to%20Print/solution.cpp) |
 | 2275C | [Unrequited Love](https://codeforces.com/contest/2275/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2275/C%20-%20Unrequited%20Love/solution.cpp) |
+| 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.cpp) |
+| 2278B | [Stakes and Shapes](https://codeforces.com/contest/2278/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2278/B%20-%20Stakes%20and%20Shapes/solution.cpp) |
+| 2278C | [Math and Physics](https://codeforces.com/contest/2278/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2278/C%20-%20Math%20and%20Physics/solution.cpp) |
+| 2278D | [Lock and Unlock](https://codeforces.com/contest/2278/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2278/D%20-%20Lock%20and%20Unlock/solution.cpp) |
+| 2278E | [Swap and Negate](https://codeforces.com/contest/2278/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2278/E%20-%20Swap%20and%20Negate/solution.cpp) |
 
 ### binary search
 
@@ -104,7 +112,6 @@
 | 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
 | 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
 | 2259G | [Index Removal](https://codeforces.com/contest/2259/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2259/G%20-%20Index%20Removal/solution.cpp) |
-| 2272C | [Yet Another Black Cell Problem](https://codeforces.com/contest/2272/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2272/C%20-%20Yet%20Another%20Black%20Cell%20Problem/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
 
 ### brute force
@@ -153,7 +160,6 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1325C | [Ehab and Path-etic MEXs](https://codeforces.com/contest/1325/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1325/C%20-%20Ehab%20and%20Path-etic%20MEXs/solution.cpp) |
-| 1365B | [Trouble Sort](https://codeforces.com/contest/1365/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1365/B%20-%20Trouble%20Sort/solution.cpp) |
 | 1365C | [Rotation Matching](https://codeforces.com/contest/1365/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1365/C%20-%20Rotation%20Matching/solution.cpp) |
 | 1375D | [Replace by MEX](https://codeforces.com/contest/1375/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1375/D%20-%20Replace%20by%20MEX/solution.cpp) |
 | 1696C | [Fishingprince Plays With Array](https://codeforces.com/contest/1696/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1696/C%20-%20Fishingprince%20Plays%20With%20Array/solution.cpp) |
@@ -181,7 +187,6 @@
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.cpp) |
 | 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.cpp) |
 | 2266D | [Falling Concrete](https://codeforces.com/contest/2266/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2266/D%20-%20Falling%20Concrete/solution.cpp) |
-| 2278E | [Swap and Negate](https://codeforces.com/contest/2278/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2278/E%20-%20Swap%20and%20Negate/solution.cpp) |
 
 ### data structures
 
@@ -258,7 +263,6 @@
 | 2246C | [0mar and Alternating Sums](https://codeforces.com/contest/2246/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2246/C%20-%200mar%20and%20Alternating%20Sums/solution.cpp) |
 | 2247A | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2247/A%20-%20Zero%20Sum/solution.cpp) |
 | 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.cpp) |
-| 2272C | [Yet Another Black Cell Problem](https://codeforces.com/contest/2272/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2272/C%20-%20Yet%20Another%20Black%20Cell%20Problem/solution.cpp) |
 | 2275E | [Repentance Is Already on the Way](https://codeforces.com/contest/2275/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2275/E%20-%20Repentance%20Is%20Already%20on%20the%20Way/solution.cpp) |
 
 ### dsu
@@ -355,7 +359,6 @@
 | 2264B | [Knife's Pill Farm](https://codeforces.com/contest/2264/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2264/B%20-%20Knife's%20Pill%20Farm/solution.cpp) |
 | 2267C | [GCD Treasury](https://codeforces.com/contest/2267/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2267/C%20-%20GCD%20Treasury/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
-| 2278E | [Swap and Negate](https://codeforces.com/contest/2278/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2278/E%20-%20Swap%20and%20Negate/solution.cpp) |
 
 ### hashing
 
@@ -379,7 +382,6 @@
 | 976C | [Nested Segments](https://codeforces.com/contest/976/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/976/C%20-%20Nested%20Segments/solution.cpp) |
 | 1016B | [Segment Occurrences](https://codeforces.com/contest/1016/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1016/B%20-%20Segment%20Occurrences/solution.cpp) |
 | 1332C | [K-Complete Word](https://codeforces.com/contest/1332/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1332/C%20-%20K-Complete%20Word/solution.cpp) |
-| 1365B | [Trouble Sort](https://codeforces.com/contest/1365/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1365/B%20-%20Trouble%20Sort/solution.cpp) |
 | 1365C | [Rotation Matching](https://codeforces.com/contest/1365/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1365/C%20-%20Rotation%20Matching/solution.cpp) |
 | 1651C | [Fault-tolerant Network](https://codeforces.com/contest/1651/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1651/C%20-%20Fault-tolerant%20Network/solution.cpp) |
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.cpp) |

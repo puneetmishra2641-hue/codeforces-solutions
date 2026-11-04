@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 152 | 27 |
+| 153 | 27 |
 
 ---
 
@@ -15,11 +15,11 @@
 - [*special](#special) (2)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (20)
-- [binary search](#binary-search) (21)
+- [binary search](#binary-search) (22)
 - [brute force](#brute-force) (25)
 - [combinatorics](#combinatorics) (6)
-- [constructive algorithms](#constructive-algorithms) (29)
-- [data structures](#data-structures) (25)
+- [constructive algorithms](#constructive-algorithms) (30)
+- [data structures](#data-structures) (26)
 - [dfs and similar](#dfs-and-similar) (9)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (22)
@@ -27,18 +27,18 @@
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (2)
 - [graphs](#graphs) (7)
-- [greedy](#greedy) (57)
+- [greedy](#greedy) (58)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (39)
+- [implementation](#implementation) (40)
 - [interactive](#interactive) (2)
 - [math](#math) (46)
 - [number theory](#number-theory) (11)
 - [schedules](#schedules) (2)
 - [sortings](#sortings) (30)
-- [strings](#strings) (11)
+- [strings](#strings) (12)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (6)
-- [two pointers](#two-pointers) (20)
+- [two pointers](#two-pointers) (21)
 
 ---
 
@@ -89,6 +89,7 @@
 | 816B | [Karen and Coffee](https://codeforces.com/contest/816/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/816/B%20-%20Karen%20and%20Coffee/solution.cpp) |
 | 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
 | 1610C | [Keshi Is Throwing a Party](https://codeforces.com/contest/1610/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1610/C%20-%20Keshi%20Is%20Throwing%20a%20Party/solution.cpp) |
+| 1697C | [awoo's Favorite Problem](https://codeforces.com/contest/1697/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1697/C%20-%20awoo's%20Favorite%20Problem/solution.cpp) |
 | 1883G1 | [Dances (Easy version)](https://codeforces.com/contest/1883/problem/G1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1883/G1%20-%20Dances%20(Easy%20version)/solution.cpp) |
 | 1904C | [Array Game](https://codeforces.com/contest/1904/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1904/C%20-%20Array%20Game/solution.cpp) |
 | 2009E | [Klee's SUPER DUPER LARGE Array!!!](https://codeforces.com/contest/2009/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2009/E%20-%20Klee's%20SUPER%20DUPER%20LARGE%20Array!!!/solution.cpp) |
@@ -156,6 +157,7 @@
 | 1365C | [Rotation Matching](https://codeforces.com/contest/1365/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1365/C%20-%20Rotation%20Matching/solution.cpp) |
 | 1375D | [Replace by MEX](https://codeforces.com/contest/1375/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1375/D%20-%20Replace%20by%20MEX/solution.cpp) |
 | 1696C | [Fishingprince Plays With Array](https://codeforces.com/contest/1696/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1696/C%20-%20Fishingprince%20Plays%20With%20Array/solution.cpp) |
+| 1697C | [awoo's Favorite Problem](https://codeforces.com/contest/1697/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1697/C%20-%20awoo's%20Favorite%20Problem/solution.cpp) |
 | 1837D | [Bracket Coloring](https://codeforces.com/contest/1837/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1837/D%20-%20Bracket%20Coloring/solution.cpp) |
 | 1923C | [Find B](https://codeforces.com/contest/1923/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1923/C%20-%20Find%20B/solution.cpp) |
 | 1935B | [Informatics in MAC](https://codeforces.com/contest/1935/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1935/B%20-%20Informatics%20in%20MAC/solution.cpp) |
@@ -197,6 +199,7 @@
 | 1365C | [Rotation Matching](https://codeforces.com/contest/1365/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1365/C%20-%20Rotation%20Matching/solution.cpp) |
 | 1651C | [Fault-tolerant Network](https://codeforces.com/contest/1651/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1651/C%20-%20Fault-tolerant%20Network/solution.cpp) |
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
+| 1697C | [awoo's Favorite Problem](https://codeforces.com/contest/1697/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1697/C%20-%20awoo's%20Favorite%20Problem/solution.cpp) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
 | 1904C | [Array Game](https://codeforces.com/contest/1904/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1904/C%20-%20Array%20Game/solution.cpp) |
 | 1996E | [Decode](https://codeforces.com/contest/1996/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1996/E%20-%20Decode/solution.cpp) |
@@ -308,6 +311,7 @@
 | 1365C | [Rotation Matching](https://codeforces.com/contest/1365/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1365/C%20-%20Rotation%20Matching/solution.cpp) |
 | 1610C | [Keshi Is Throwing a Party](https://codeforces.com/contest/1610/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1610/C%20-%20Keshi%20Is%20Throwing%20a%20Party/solution.cpp) |
 | 1696C | [Fishingprince Plays With Array](https://codeforces.com/contest/1696/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1696/C%20-%20Fishingprince%20Plays%20With%20Array/solution.cpp) |
+| 1697C | [awoo's Favorite Problem](https://codeforces.com/contest/1697/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1697/C%20-%20awoo's%20Favorite%20Problem/solution.cpp) |
 | 1805D | [A Wide, Wide Graph](https://codeforces.com/contest/1805/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1805/D%20-%20A%20Wide%2C%20Wide%20Graph/solution.cpp) |
 | 1837D | [Bracket Coloring](https://codeforces.com/contest/1837/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1837/D%20-%20Bracket%20Coloring/solution.cpp) |
 | 1883G1 | [Dances (Easy version)](https://codeforces.com/contest/1883/problem/G1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1883/G1%20-%20Dances%20(Easy%20version)/solution.cpp) |
@@ -380,6 +384,7 @@
 | 1651C | [Fault-tolerant Network](https://codeforces.com/contest/1651/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1651/C%20-%20Fault-tolerant%20Network/solution.cpp) |
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.cpp) |
 | 1696C | [Fishingprince Plays With Array](https://codeforces.com/contest/1696/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1696/C%20-%20Fishingprince%20Plays%20With%20Array/solution.cpp) |
+| 1697C | [awoo's Favorite Problem](https://codeforces.com/contest/1697/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1697/C%20-%20awoo's%20Favorite%20Problem/solution.cpp) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
 | 1829B | [Blank Space](https://codeforces.com/contest/1829/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1829/B%20-%20Blank%20Space/solution.cpp) |
 | 1895C | [Torn Lucky Ticket](https://codeforces.com/contest/1895/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1895/C%20-%20Torn%20Lucky%20Ticket/solution.cpp) |
@@ -526,6 +531,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1332C | [K-Complete Word](https://codeforces.com/contest/1332/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1332/C%20-%20K-Complete%20Word/solution.cpp) |
+| 1697C | [awoo's Favorite Problem](https://codeforces.com/contest/1697/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1697/C%20-%20awoo's%20Favorite%20Problem/solution.cpp) |
 | 1948D | [Tandem Repeats?](https://codeforces.com/contest/1948/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1948/D%20-%20Tandem%20Repeats%3F/solution.cpp) |
 | 2010C1 | [Message Transmission Error (easy version)](https://codeforces.com/contest/2010/problem/C1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2010/C1%20-%20Message%20Transmission%20Error%20(easy%20version)/solution.cpp) |
 | 2045C | [Saraga](https://codeforces.com/contest/2045/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/2045/C%20-%20Saraga/solution.cpp) |
@@ -563,6 +569,7 @@
 | 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.cpp) |
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
+| 1697C | [awoo's Favorite Problem](https://codeforces.com/contest/1697/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1697/C%20-%20awoo's%20Favorite%20Problem/solution.cpp) |
 | 1883G1 | [Dances (Easy version)](https://codeforces.com/contest/1883/problem/G1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1883/G1%20-%20Dances%20(Easy%20version)/solution.cpp) |
 | 1904C | [Array Game](https://codeforces.com/contest/1904/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1904/C%20-%20Array%20Game/solution.cpp) |
 | 1948D | [Tandem Repeats?](https://codeforces.com/contest/1948/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/puneetmishra2641-hue/codeforces-solutions/blob/HEAD/1948/D%20-%20Tandem%20Repeats%3F/solution.cpp) |

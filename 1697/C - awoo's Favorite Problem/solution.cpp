@@ -1,95 +1,76 @@
 #include <bits/stdc++.h>
 using namespace std;
  
+#define int long long
+ 
 void solve() {
-    int n ;
-    cin>>n;
-    string s,t;
-    cin>>s>>t;
+    int n;
+    cin >> n;
  
-    map<char,set<int>>mp;
+    string s, t;
+    cin >> s >> t;
  
-    for(int i=0 ; i<n ; i++)
-    {
-        mp[s[i]].insert(i);
-    }
+    int i = 0, j = 0;
  
-    string ds=t;
-    sort(ds.begin(),ds.end());
-    sort(s.begin(),s.end());
+    while (i < n && j < n) {
  
-    if(ds!=s)
-    {
-        cout<<"NO"<<endl;
-        return;
-    }
+        // Skip all 'b' characters
+        while (i < n && s[i] == 'b') i++;
+        while (j < n && t[j] == 'b') j++;
  
- 
-    for(int i=0 ; i<n ; i++)
-    {
-        char temp=t[i];
-        if(temp=='a')
-        {
-            int idx=*mp['a'].begin();
- 
-            if(mp['b'].size() && *mp['b'].begin()<idx) 
-            {
-                cout<<"NO"<<endl;
-                return;
-            }
- 
-              if(mp['c'].size() && *mp['c'].begin()<idx) 
-            {
-                cout<<"NO"<<endl;
-                return;
-            }
-            mp['a'].erase(idx);
-            continue;
- 
+        // One string has finished its non-b characters
+        if (i == n || j == n) {
+            break;
         }
  
-        if(temp=='b')
-        {
-             int idx=*mp['b'].begin();
-              if(mp['c'].size() && *mp['c'].begin()<idx) 
-            {
-                cout<<"NO"<<endl;
-                return;
-            }
-            mp['b'].erase(idx);
-            continue;
- 
- 
+        // Non-b characters must match
+        if (s[i] != t[j]) {
+            cout << "NO
+";
+            return;
         }
  
-         int idx=*mp['c'].begin();
+        // 'a' can only move right
+        if (s[i] == 'a' && i > j) {
+            cout << "NO
+";
+            return;
+        }
  
-            if(mp['a'].size() && *mp['a'].begin()<idx) 
-            {
-                cout<<"NO"<<endl;
-                return;
-            }
+        // 'c' can only move left
+        if (s[i] == 'c' && i < j) {
+            cout << "NO
+";
+            return;
+        }
  
-            mp['c'].erase(idx);
- 
- 
- 
+        i++;
+        j++;
     }
  
-    cout<<"YES"<<endl;
+    // Check whether any non-b character remains
+    while (i < n && s[i] == 'b') i++;
+    while (j < n && t[j] == 'b') j++;
  
-   
- 
+    if (i == n && j == n) {
+        cout << "YES
+";
+    } else {
+        cout << "NO
+";
+    }
 }
  
-int main() {
+signed main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    
-    int t;
-    cin >> t;
-    while(t--) {
+ 
+    int q;
+    cin >> q;
+ 
+    while (q--) {
         solve();
     }
+ 
     return 0;
 }

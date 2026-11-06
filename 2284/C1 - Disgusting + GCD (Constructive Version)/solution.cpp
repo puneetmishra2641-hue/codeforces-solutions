@@ -1,14 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-#define int long long
  
+#define endl '
+'
 const int MOD = 1e9 + 7;
 const int MAXN = 1000005;
  
-// Below is the Policy-Based Data Structure (PBDS) template for ordered set, multiset, and map.
-// Uncomment the block below to use PBDS in your code.
-/*
+// Below is the Policy-Based Data Structure (PBDS) template.
+// Uncomment the block below to use PBDS.
+ 
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 using namespace __gnu_pbds;
@@ -16,17 +17,16 @@ using namespace __gnu_pbds;
 typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> ordered_set;
 typedef tree<pair<int, int>, null_type, less<pair<int, int>>, rb_tree_tag, tree_order_statistics_node_update> ordered_multiset;
 typedef tree<int, int, less<int>, rb_tree_tag, tree_order_statistics_node_update> ordered_map;
-*/
  
-// Precomputes prime flags, lowest prime factors (LPF), and highest prime factors (HPF) up to MAXN.
+ 
+// Sieve: prime flags, lowest prime factors (LPF), highest prime factors (HPF).
 vector<bool> isprime(MAXN, true);
 vector<int> lowprime(MAXN), highprime(MAXN);
  
 void sieve() {
     isprime[0] = isprime[1] = false;
     for (int i = 2; i < MAXN; i++) {
-        lowprime[i] = i;
-        highprime[i] = i;
+        lowprime[i] = highprime[i] = i;
     }
     for (int i = 2; i < MAXN; i++) {
         if (isprime[i]) {
@@ -41,7 +41,7 @@ void sieve() {
     }
 }
  
-// Returns a map of prime factors with their frequencies for a given number.
+// Returns prime factors with their frequencies.
 map<int, int> allprime(int n) {
     map<int, int> factors;
     while (n > 1) {
@@ -54,7 +54,7 @@ map<int, int> allprime(int n) {
     return factors;
 }
  
-// Returns a sorted vector containing all divisors of a given number.
+// Returns a sorted vector containing all divisors.
 vector<int> divisors(int n) {
     vector<int> div;
     for (int i = 1; i * i <= n; i++) {
@@ -69,7 +69,7 @@ vector<int> divisors(int n) {
     return div;
 }
  
-// Computes (a^b) modulo MOD efficiently using binary exponentiation.
+// Binary exponentiation modulo MOD.
 int power(int a, int b) {
     int res = 1;
     a %= MOD;
@@ -80,7 +80,7 @@ int power(int a, int b) {
     }
     return res;
 }
- 
+ 
 void solve(vector<int>&temp) {
     int n;
     cin >> n;
@@ -88,34 +88,34 @@ void solve(vector<int>&temp) {
     for (int i = 0; i < n; i++) {
         cin >> a[i];
     }
- 
+ 
   
- 
- 
+ 
+ 
     for(int i=0 ; i<n ; i++)
     {
         cout<<*lower_bound(temp.begin(),temp.end(),a[i])<<" ";
     }
- 
+ 
     cout<<endl;
 }
- 
+ 
 signed main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     int t;
     cin >> t;
- 
+ 
     sieve();
- 
- 
+ 
+ 
       vector<int>temp;
- 
- 
+ 
+ 
     for(int i=0 ; i<MAXN; i++)
     {
         if(isprime[i]) temp.push_back(i);
- 
+ 
     }
     while (t--) {
         solve(temp);
